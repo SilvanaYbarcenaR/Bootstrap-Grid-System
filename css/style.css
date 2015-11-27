@@ -137,9 +137,8 @@ footer{
 	border-right: 0;
 }
   }
-
-
-
-
-
-
+@media (max-width: 650px) {
+  .col-xs-12 {
+  width: 100%;
+}
+  }
