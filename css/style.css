@@ -1,0 +1,55 @@
+a{
+	color: black;
+}
+.raya{
+	border-right: 2px solid black;
+}
+
+.container{
+	margin:0 30px;
+}
+.Busqueda{
+	border: 2px solid black;
+	margin-left:10px;
+
+}
+.Busqueda a{
+color:gray;
+}
+h1, .Noticias, .Enlaces, .Busqueda, button{ 
+	float:left;
+	line-height: 30px;
+	margin-top: 40px;
+}
+.Noticias, .Enlaces, .Busqueda{
+	padding-right: 20px;
+}
+.container{
+	width: 100%;
+
+}
+h1{
+	margin-right: 50%;
+}
+.Enlaces{
+	border-right: 2px solid black;
+}
+.header img{
+	width: 20px;
+	padding-right: 5px;
+}
+button{
+	margin-left: 10px;
+}
+#home .sombreado{
+	color:white;
+	background: gray;
+	width: 130px;
+	line-height: 30px;
+}
+img{
+	width:90%;
+}
+
+
+

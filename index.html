@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+  <!--header -->
+    <div class="container header">
+      <div class="Name"><h1>Site name</h1></div>
+      <div class="Noticias"><img src="img/home.png" alt="Home"><a href="">Noticias</a></div>
+      <div class="Enlaces"><img src="img/home.png" alt="Home"><a href="">Enlaces RSS</a></div>
+      <div class="Busqueda"><a href="">Ingresa tu búsqueda</a></div>
+      <button class="img-rounded">Buscar</button> 
+    </div></br>
+  <!-- tab menu -->
+  <ul id = "myTab" class = "nav nav-tabs container">
+   <li class = "active">
+      <a href = "#home" data-toggle = "tab">
+         Bienvenido
+      </a>
+   </li>
+   
+   <li><a href = "#ios" data-toggle = "tab">Actualidades</a></li>
+   <li><a href = "#ios" data-toggle = "tab">En directo</a></li>
+   <li><a href = "#ios" data-toggle = "tab">Reporte Financiero</a></li>
+   <li><a href = "#ios" data-toggle = "tab">Nuestra Oferta</a></li>
+   <li><a href = "#ios" data-toggle = "tab">De nosotros a Usted</a></li>
+    
+   <li class = "dropdown">
+    
+      <a href = "#" id = "myTabDrop1" class = "dropdown-toggle" data-toggle = "dropdown">
+         Java 
+         <b class = "caret"></b>
+      </a>
+      
+      <ul class = "dropdown-menu" role = "menu" aria-labelledby = "myTabDrop1">
+         <li>
+            <a href = "#jmeter" tabindex = "-1" data-toggle = "tab">
+               jmeter
+            </a>
+         </li>
+         
+         <li>
+            <a href = "#ejb" tabindex = "-1" data-toggle = "tab">
+               ejb
+            </a>
+         </li>
+      </ul>
+      
+   </li>
+    
+</ul>
+
+<!--contenido de los tabs -->
+
+<div id = "myTabContent" class = "tab-content">
+
+   <div class = "tab-pane fade in active" id = "home">
+    <div class="container list">
+      <div class="row">
+        <!--Primera columna-->
+      <div class="col-md-6">
+      <p class="sombreado">Historia destacada</p>
+      <b>Artículo |</b> publicado el 03/10/15
+      <p><b>Lorem ipsum dolor sit amet</b></p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat perspiciatis, eius vitae voluptate ad tempore porro nulla, fugiat pariatur quod facilis dolorum necessitatibus architecto cupiditate dicta nihil. Eos, enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate modi vitae assumenda facere. Repellendus delectus ab assumenda voluptatum omnis dolor sit, ut rem sed voluptate veritatis eum voluptatem illo quibusdam! </br>
+      <a><span class="glyphicon glyphicon-bookmark"></span> <b>Ver más...</b></a>
+      <a><span class="glyphicon glyphicon-tags"></span> <b>Etiquetas:</b> Lorem ipsum diligat</a>
+      <p class="sombreado">Webzone</p> <u>Preguntas</u> | publicado el 09-10-15
+      <p><b>Lorem ipsum dolor sit amet</b></p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat perspiciatis, eius vitae voluptate ad tempore porro nulla, fugiat pariatur quod facilis dolorum necessitatibus architecto cupiditate dicta nihil. Eos, enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate modi vitae assumenda facere. Repellendus delectus ab assumenda voluptatum omnis dolor sit, ut rem sed voluptate veritatis eum voluptatem illo quibusdam! </br>
+      <a><span class="glyphicon glyphicon-bookmark"></span> <b>Ver más...</b></a>
+      <a><span class="glyphicon glyphicon-tags"></span> <b>Etiquetas:</b> Lorem ipsum diligat</a></br>
+      <b>Artículo |</b> publicado el 03/10/15
+      <p><b>Etiam Lorem et suspira nostres</b></p>
+      <img src="img/conflict.jpg" alt="Siria and France Conflict"> </br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat perspiciatis, eius vitae voluptate ad tempore porro nulla, fugiat pariatur quod facilis dolorum necessitatibus architecto cupiditate dicta nihil. Eos, enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate modi vitae assumenda facere. Repellendus delectus ab assumenda voluptatum omnis dolor sit, ut rem sed voluptate veritatis eum voluptatem illo quibusdam! </br>
+      <a><span class="glyphicon glyphicon-bookmark"></span> <b>Ver más...</b></a>
+      <a><span class="glyphicon glyphicon-tags"></span> <b>Etiquetas:</b> Lorem ipsum diligat</a></br>
+      <p><b>Lorem ipsum dolor sit amet</b></p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat perspiciatis, eius vitae voluptate ad tempore porro nulla, fugiat pariatur quod facilis dolorum necessitatibus architecto cupiditate dicta nihil. Eos, enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate modi vitae assumenda facere. Repellendus delectus ab assumenda voluptatum omnis dolor sit, ut rem sed voluptate veritatis eum voluptatem illo quibusdam! </br>
+      <a><span class="glyphicon glyphicon-bookmark"></span> <b>Ver más...</b></a>
+      <a><span class="glyphicon glyphicon-tags"></span> <b>Etiquetas:</b> Lorem ipsum diligat</a>
+      </div>
+      <!--Segunda columna-->
+      <div class="col-md-3">
+        <p class="sombreado">Historia destacada</p>
+        <iframe width="300" height="250" src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+        <p><b>Claire Dupond</b></p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat perspiciatis, eius vitae voluptate ad tempore porro nulla, fugiat pariatur quod facilis dolorum necessitatibus architecto cupiditate dicta nihil. </br></br>
+        Publicado el 03/10/15    <a><span class="glyphicon glyphicon-bookmark"></span> <b>Ver más...</b></a>
+        <p class="sombreado">Agenda</p>
+         <div class="row">
+          <div class="col-md-2">
+          23 Enero</div>
+          <div class="col-md-8">
+          <b>Lorem ipsum dolor sit amet</b><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </div>
+         <div class="row">
+          <div class="col-md-2">
+          23 Enero</div>
+          <div class="col-md-8">
+          <b>Lorem ipsum dolor sit amet</b><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </div> <div class="row">
+          <div class="col-md-2">
+          23 Enero</div>
+          <div class="col-md-8">
+          <b>Lorem ipsum dolor sit amet</b><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </div>
+         <div class="row">
+          <div class="col-md-2">
+          23 Enero</div>
+          <div class="col-md-8">
+          <b>Lorem ipsum dolor sit amet</b><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </div>
+        <b>Más información</b></br>
+        <u>Localidades</u></br>
+        <b>Lorem ipsum dolor sit amet</b></br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+        <u>Hospimedia</u></br>
+        <b>Lorem ipsum dolor sit amet</b></br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.      
+      </div>
+      <!--Tercera columna-->
+      <div class="col-md-3">
+      <p><b>Más información</b></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Finanzas y fiscalización</b></a></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Inversión y equipos</b></a></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Medio Ambiente</b></a></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Hábitat/Urbanismo</b></a></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Sanidad</b></a></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Social/Servicios</b></a></p>
+      <p><a><span class="glyphicon glyphicon-bookmark"></span> <b>Transporte</b></a></p>
+      MAGAZINE</br>
+      <b>ECODEFI</b></br>
+      ENQUETE</br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo nostrum, ex error aspernatur veritatis voluptates sed.</br>
+      PREGUNTAS</br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br></br>
+      MAGAZINE</br>
+      <b>ACCIONES COMUNES</b></br>
+      ENQUETE</br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo nostrum, ex error aspernatur veritatis voluptates sed.</br>
+      PREGUNTAS</br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br></br>
+      <b>Nueva generación del internet</b>
+      </div>
+      </div>
+    </div>
+   </div> 
+   
+   <div class = "tab-pane fade" id = "ios">
+      <p>iOS is a mobile operating system developed and distributed by 
+         Apple Inc. Originally released in 2007 for the iPhone, iPod Touch, and 
+         Apple TV. iOS is derived from OS X, with which it shares the Darwin 
+         foundation. iOS is Apple's mobile version of the OS X operating system 
+         used on Apple computers.</p>
+   </div>
+   
+   <div class = "tab-pane fade" id = "jmeter">
+      <p>jMeter is an Open Source testing software. It is 100% pure Java 
+         application for load and performance testing.</p>
+   </div>
+   
+   <div class = "tab-pane fade" id = "ejb">
+      <p>Enterprise Java Beans (EJB) is a development architecture for 
+         building highly scalable and robust enterprise level applications to be 
+         deployed on J2EE compliant Application Server such as JBOSS, 
+         Web Logic etc.</p>
+   </div>
+   
+</div>
+
+<script>
+   $(function () {
+      $('#myTab li:eq(1) a').tab('show');
+   });
+</script>
+ <footer>
+  
+ </footer>
+
+
+	<!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
