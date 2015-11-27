@@ -71,4 +71,9 @@ img{
 	padding: 0;
 	margin-left: 15px;
 }
+.raya{
+	width: 100%;
+	border-bottom: 1px solid #BDBDBD;
+	margin:20px 0;
+}
 /*Barra de búsqueda*/
