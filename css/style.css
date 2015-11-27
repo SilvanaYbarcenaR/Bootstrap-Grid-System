@@ -46,10 +46,29 @@ button{
 	background: gray;
 	width: 130px;
 	line-height: 30px;
+	padding-left: 5px;
+}
+#home .letramediana{
+font-size: 12px;
+color:black;
+}
+#home .peqencabezados{
+font-size: 11px;
+}
+.gris{
+color:#A4A4A4;	
 }
 img{
-	width:90%;
+	width:100%;
 }
-
-
-
+#myTab{
+	background:#BDBDBD;
+	padding: 40px 10px 0;
+	margin-bottom: 20px;
+}
+.sombra{
+	background:#A4A4A4;
+	padding: 0;
+	margin-left: 15px;
+}
+/*Barra de búsqueda*/
