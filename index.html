@@ -17,15 +17,15 @@
 </head>
 <body>
   <!--header -->
-    <div class="container header">
-      <div class="Name"><h1>Site name</h1></div>
-      <div class="Noticias"><img src="img/home.png" alt="Home"><a href="">Noticias</a></div>
-      <div class="Enlaces"><img src="img/home.png" alt="Home"><a href="">Enlaces RSS</a></div>
-      <div class="Busqueda"><a href="">Ingresa tu búsqueda</a></div>
-      <button class="img-rounded">Buscar</button> 
+    <div class="container-fluid header">
+      <div class="Name pull-left"><h1>Site name</h1></div>
+      <button class="img-rounded pull-right">Buscar</button> 
+      <div class="Busqueda pull-right"><a href="">Ingresa tu búsqueda</a></div>
+      <div class="Enlaces pull-right"><img src="img/home.png" alt="Home"><a href="">Enlaces RSS</a></div>
+      <div class="Noticias pull-right"><img src="img/home.png" alt="Home"><a href="">Noticias</a></div>
     </div></br>
   <!-- tab menu -->
-  <ul id = "myTab" class = "nav nav-tabs container">
+  <ul id = "myTab" class = "nav nav-tabs container-fluid">
    <li class = "active">
       <a href = "#home" data-toggle = "tab">
          Bienvenido
@@ -68,7 +68,7 @@
 <div id = "myTabContent" class = "tab-content">
 
    <div class = "tab-pane fade in active" id = "home">
-    <div class="container list">
+    <div class="container-fluid list">
       <div class="row">
         <!--Primera columna-->
       <div class="col-md-6">
@@ -188,17 +188,53 @@
          deployed on J2EE compliant Application Server such as JBOSS, 
          Web Logic etc.</p>
    </div>
-   
-</div>
+
+
+ <footer class="container-fluid">
+
+    <div class="row">
+      <div class="col-1">
+        <p><b>Rubros</b></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Actualidades</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">En directo</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Reporte financiero</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Nuestra oferta</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">De nosotros a ustedes</b></a></p></div>
+      <div class="col-1">
+        <p><b>Expertise</b></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Finanzas y fiscalización</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Investigación y equipos</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Medio Ambiente</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Hábitat/Urbanismo</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Sanidad</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Social/Servicios</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Transporte</b></a></p></div>
+      <div class="col-1">
+        <p><b>Suscripción</b></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Todo el flujo</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Flujo RSS para expertos</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Noticias</b></a></p></div>
+      <div class="col-1">
+        <p><b>Nosotros</b></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">¿Quiénes somos?</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Plan del sitio</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Información legal</b></a></p></div>
+      <div class="col-1">
+        <p><b>Contacto</b></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Contáctanos</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">FAQ</b></a></p>
+        <p><a><span class="glyphicon glyphicon-bookmark"></span> <b class="blanco">Haga sus preguntas</b></a></p></div>
+    </div>
+
+ </footer>
+
+</div></br>
 
 <script>
    $(function () {
       $('#myTab li:eq(1) a').tab('show');
    });
 </script>
- <footer>
-  
- </footer>
 
 
 	<!-- Incluir todos tus scripts apartir de este punto -->

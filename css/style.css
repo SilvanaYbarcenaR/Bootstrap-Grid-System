@@ -5,8 +5,8 @@ a{
 	border-right: 2px solid black;
 }
 
-.container{
-	margin:0 30px;
+.container-fluid{
+	margin:0 20px;
 }
 .Busqueda{
 	border: 2px solid black;
@@ -17,19 +17,11 @@ a{
 color:gray;
 }
 h1, .Noticias, .Enlaces, .Busqueda, button{ 
-	float:left;
 	line-height: 30px;
 	margin-top: 40px;
 }
 .Noticias, .Enlaces, .Busqueda{
 	padding-right: 20px;
-}
-.container{
-	width: 100%;
-
-}
-h1{
-	margin-right: 50%;
 }
 .Enlaces{
 	border-right: 2px solid black;
@@ -76,6 +68,7 @@ img{
 	border-bottom: 1px solid #BDBDBD;
 	margin:20px 0;
 }
+
 .fondo{
 	background:#D8D8D8;
 	padding: 0 8px;
@@ -84,4 +77,51 @@ img{
 	background:#E6E6E6;
 	padding: 0 8px;
 }
+footer{
+	border-top: 5px solid black;
+}
 /*Barra de búsqueda*/
+/*Grid System 2*/
+/* GLOBAL */
+.row {
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+[class*="col-"] {
+	min-height: 7px;
+	padding: 0 14px;
+	float: left;
+}
+
+.col-1 {
+	/* (1 / 12) x 100 */
+	width: 20%;
+} 
+
+.col-2 {
+	/* (2 / 12) x 100 */
+	width: 40%;
+} 
+
+.col-3 {
+	/* (3 / 12) x 100 */
+	width: 60%;
+} 
+
+.col-4 {
+	/* (4 / 12) x 100 */
+	width: 80%;
+}
+
+.col-5 {
+	/* (5 / 12) x 100 */
+	width: 100%;
